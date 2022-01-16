@@ -25,9 +25,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = me.firstName + me.lastName;
+let fullName = `${me.firstName} ${me.lastName}`; // This will combine both object properties with a space in between
 
-console.log(fullName);
+console.log('Hello my name is', fullName); // This will log out "Hello my name is Clay Webb"
 
 
 
