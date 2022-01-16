@@ -16,7 +16,7 @@ const me = {
   shoeCount: 8,
   favThreeFoods: ['Chicken', 'Pineapple', 'Dots' ]
 };
-console.log('A little about me:', me);
+console.log('A little about me:', me); // This will log out "A little about me:" followed by the me object literal properties.
 
 /* 2. Accessing object properties.
   - Create a variable called fullName
