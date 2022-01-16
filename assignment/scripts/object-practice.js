@@ -66,3 +66,6 @@ console.log('Now I have', me.shoeCount + ' pairs of shoes'); // This will log th
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'Blue'; // This should add the favoriteColor property into the me object literal
+
+console.log('A little more about me now:', me); // This will log the properties in the updated me object literal
