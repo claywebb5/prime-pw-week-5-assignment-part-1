@@ -36,11 +36,13 @@ console.log('Hello my name is', fullName); // This will log out "Hello my name i
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
+
 // I'm not sure if this is asking us to create two seperate console logs or to combine them so I will do both
+
 console.log('My first favorite food is: ' + me.favThreeFoods[0]);
 console.log('My last favorite food is:', me.favThreeFoods[2]); // These are the seperate console logs
 
-console.log(`My first favorite food is: ${me.favThreeFoods[0]}, My last favorite food is: ${me.favThreeFoods[2]}`); // This is the combined console log 
+console.log(`My first favorite food is: ${me.favThreeFoods[0]}, My last favorite food is: ${me.favThreeFoods[2]}`); // This is the combined console log
 
 
 
@@ -50,6 +52,12 @@ console.log(`My first favorite food is: ${me.favThreeFoods[0]}, My last favorite
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
+console.log(`I currently have ${me.shoeCount} pairs of shoes`); // This will log "I currently have 8 pairs of shoes"
+
+me.shoeCount++; // This will add one to the current shoeCount property value
+
+console.log('Now I have', me.shoeCount + ' pairs of shoes'); // This will log the new shoe count and should display "Now I have 9 pairs of shoes"
+
 
 
 /* 5. Add a new property to an existing object.
