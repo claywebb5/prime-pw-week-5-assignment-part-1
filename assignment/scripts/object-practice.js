@@ -18,13 +18,14 @@ const me = {
 };
 console.log('A little about me:', me); // This will log out "A little about me:" followed by the me object literal properties.
 
+
+
 /* 2. Accessing object properties.
   - Create a variable called fullName
   - Use the firstName & lastName properties of the object you
     created above to set its value.
   - Console.log fullName
 */
-
 let fullName = `${me.firstName} ${me.lastName}`; // This will combine both object properties with a space in between
 
 console.log('Hello my name is', fullName); // This will log out "Hello my name is Clay Webb"
@@ -35,6 +36,11 @@ console.log('Hello my name is', fullName); // This will log out "Hello my name i
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
+// I'm not sure if this is asking us to create two seperate console logs or to combine them so I will do both
+console.log('My first favorite food is: ' + me.favThreeFoods[0]);
+console.log('My last favorite food is:', me.favThreeFoods[2]); // These are the seperate console logs
+
+console.log(`My first favorite food is: ${me.favThreeFoods[0]}, My last favorite food is: ${me.favThreeFoods[2]}`); // This is the combined console log 
 
 
 
